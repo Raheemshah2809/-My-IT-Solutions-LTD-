@@ -1,17 +1,16 @@
-/* 
-Main-Color:  #008B8B;
-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
   }
   
   html {
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', 'Arial', "sans-serif";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -68,6 +67,7 @@ Main-Color:  #008B8B;
     font-weight: 500;
     letter-spacing: 1px;
     word-spacing: 2px; 
+    font-family: 'Roboto', sans-serif;
   }
   
   header p {
@@ -78,6 +78,7 @@ Main-Color:  #008B8B;
     font-weight: 300;
     letter-spacing: 0px;
     word-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .btn:link, .btn:visited {
@@ -93,6 +94,7 @@ Main-Color:  #008B8B;
     border: 1px solid  #008B8B;
     color: #fff;
     margin-bottom: 13px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .btn-ghost:link, .btn-ghost:visited {
@@ -1113,6 +1115,7 @@ header .logo {
         -ms-animation: fadein 5s; /* Internet Explorer */
          -o-animation: fadein 5s; /* Opera < 12.1 */
             animation: fadein 5s;
+            font-family: 'Roboto', sans-serif;
 }
 
 @keyframes fadein {
@@ -1168,6 +1171,7 @@ header .logo {
         animation-timing-function: ease;	
         -webkit-animation-timing-function: ease;	
         visibility: visible !important;	
+        font-family: 'Roboto', sans-serif;
     }
 }
     
