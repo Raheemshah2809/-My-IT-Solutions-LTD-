@@ -68,9 +68,9 @@ Main-Color:  #008B8B;
   header h2{
     margin: 0 0 20 0;
     color: #fff;
-    font-size: 240%;
+    font-size: 210%;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     word-spacing: 2px; 
   }
   
