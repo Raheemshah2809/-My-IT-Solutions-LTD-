@@ -1101,7 +1101,7 @@ header .logo {
     .logo-text h1 {
         margin: 0 0 0 0px;
         color: #fff;
-        font-size: 150%;
+        font-size: 130%;
         font-weight: 500;
         letter-spacing: -1px;
         word-spacing: -4px; 
@@ -1114,7 +1114,7 @@ header .logo {
         color: #fff;
         text-transform: uppercase;
         font-size: 80%;
-        border-bottom: 2px solid transparent;
+        
         transition: border-bottom 0.7s;
     }
     .main-nav li a:link,
