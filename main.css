@@ -590,6 +590,7 @@ Main-Color:  #008B8B;
       margin-left: 10px;
     }
     
+    
   }
   
   /*small tap to big tab */
@@ -735,7 +736,7 @@ Main-Color:  #008B8B;
     }
     .main-nav li a:link,
     .main-nav li a:visited{
-      padding: 6px 6px 6px 6px;
+    
       
     }
     /*Sticky Nav.......... */
@@ -1095,6 +1096,36 @@ header .logo {
     justify-content: space-between;
     font-weight: 700;
     font-size: 13px;
+}
+@media screen and (min-width:1920px) { 
+    .logo-text h1 {
+        margin: 0 0 0 0px;
+        color: #fff;
+        font-size: 150%;
+        font-weight: 500;
+        letter-spacing: -1px;
+        word-spacing: -4px; 
+        position: relative;
+        right: 500px;
+      }
+      main-nav li a:link, .main-nav li a:visited {
+        padding: 8px 0;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 80%;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.7s;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+      padding: 8px 0;
+      font-size: 8  0%;
+      position: relative;
+      bottom: 70px;
+      left: 700px;
+  }
+    }
 }
 
 @media screen and (max-width:1200px){
