@@ -139,16 +139,28 @@
   .logo-text h1 {
     margin: 0 0 0 0px;
     color: #fff;
-    font-size: 150%;
-    font-weight: 500;
-    letter-spacing: -1px;
-    word-spacing: -4px; 
-    
+    font-size: 50%;
+    font-weight: 300;
+    letter-spacing: 15px;
+    word-spacing: 10px; 
+    position: relative;
+    right: 234px;
     
   }
   
   
+  .slogan{
+    margin: 0 0 0 0px;
+    color: #fff;
+    font-size: 75%;
+    font-weight: 500;
+    letter-spacing: 14px;
+    word-spacing: 0px; 
+    position: relative;
+    right: 234px;
+    font-style: italic;
   
+  }
   
   .main-nav {
     float: right;
@@ -171,6 +183,9 @@
     font-size: 80%;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.7s;
+    position: relative;
+    left: 400px;
+    bottom: 100px;
   }
   
   .main-nav li a:hover,
@@ -475,7 +490,7 @@
     <!---------------------------------------------- -- */
   
   footer {
-    background-color: #2a3a3f;
+    background-color: black;
     padding: 50px 0;
   }
   
@@ -713,15 +728,43 @@
 
     
     position: relative;
-    left: 17px;
-
- }
+    left: -95px;
+  }
+  
+  .main-nav li a:link, .main-nav li a:visited {
+    padding: 8px 0;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80%;
+    
+    transition: border-bottom 0.7s;
+  }
+  .main-nav li a:link,
+  .main-nav li a:visited,
+  .slideDown{
+  padding: 8px 0;
+  font-size: 8  0%;
+  position: relative;
+  bottom: -22px;
+  left: -11px;
+  animation-name: slideDown;
+    -webkit-animation-name: slideDown;	
+    animation-duration: 5s;	
+    -webkit-animation-duration: 5s;
+    animation-timing-function: ease;	
+    -webkit-animation-timing-function: ease;	
+    visibility: visible !important;	
+    font-family: 'Roboto', sans-serif;
+  }
   
   .logo-text h2 {
       font-size: 60%;
       font-weight: 400;
       letter-spacing: 0;
-      word-spacing: -1px; 
+      word-spacing: -1px;
+      position: relative;
+      right: 45px; 
     }
     .main-nav {
       margin-left: 10%;
@@ -732,7 +775,7 @@
     }
     .main-nav li a:link,
     .main-nav li a:visited{
-    
+    }
       
     }
     /*Sticky Nav.......... */
@@ -1224,8 +1267,23 @@ header .logo {
     }
     
 
-
+    @media screen and (max-width:800px){
+    }
     @media screen and (max-width:1200px){
+    }
+    @media screen and (max-width:1400px){
+      header .logo {
+        position: relative;
+        font-weight: 700;
+        color: #fff;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+        width: 105%;
+        left: 0px;
+    }
       .slogan{
         margin: 0 0 0 0px;
         color: #fff;
@@ -1286,6 +1344,66 @@ header .logo {
 
       
 }
+@media screen and (max-width:768px){
+  .about-section{
+      padding: 0px;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+  header .logo {
+      position: relative;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      font-size: 2em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: 0.6s;
+      width: 105%;
+      left: 95px;
+  }
+  .slogan{
+    margin: 0 0 0 0px;
+    color: #fff;
+    font-size: 60%;
+    font-weight: 500;
+    letter-spacing: 21px;
+    word-spacing: -11px; 
+    position: relative;
+    right: 9px;
+    font-style: italic;
+  
+}
+.main-nav li a:link, .main-nav li a:visited {
+  padding: 8px 0;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 80%;
+  
+  transition: border-bottom 0.7s;
+}
+.main-nav li a:link,
+.main-nav li a:visited,
+.slideDown{
+padding: 8px 0;
+font-size: 8  0%;
+position: relative;
+bottom: -22px;
+left: -11px;
+animation-name: slideDown;
+  -webkit-animation-name: slideDown;	
+  animation-duration: 5s;	
+  -webkit-animation-duration: 5s;
+  animation-timing-function: ease;	
+  -webkit-animation-timing-function: ease;	
+  visibility: visible !important;	
+  font-family: 'Roboto', sans-serif;
+}
+    
+}
+
 
 .container1b{
     padding-top: 150px;
