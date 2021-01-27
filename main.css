@@ -1400,6 +1400,7 @@ animation-name: slideDown;
   -webkit-animation-timing-function: ease;	
   visibility: visible !important;	
   font-family: 'Roboto', sans-serif;
+  font-size: 12px;
 }
     
 }
