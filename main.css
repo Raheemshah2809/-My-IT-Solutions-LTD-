@@ -45,7 +45,7 @@
   /* -------------------------------------------- */
   
   header {
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(Images/wall1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.8)), url(images/wall1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -1091,7 +1091,7 @@ body{
 }
 
 .about-section{
-    background: url(Images/wall1.jpg) no-repeat left;
+    background: url(images/wall1.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
